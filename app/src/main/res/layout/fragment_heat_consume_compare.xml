@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/id_date_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+            <EditText
+                    android:id="@+id/id_date_start"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:hint="选择日期"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:textColorHint="@android:color/holo_blue_light"
+                    android:textSize="14sp"
+                    android:focusable="true"
+                    tools:ignore="Autofill,TextFields"/>
+
+            <ImageView
+                    android:id="@+id/id_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/ic_search_black"
+                    tools:ignore="ContentDescription"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="  1、基础数据"
+                tools:ignore="HardcodedText"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="1dp"/>
+
+        <TextView
+                android:id="@+id/id_city_name"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_L"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Tw1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Tpj1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_N"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_F"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_k"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Tn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Q1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="  2、预测数据"
+                tools:ignore="HardcodedText"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="1dp"/>
+
+        <TextView
+                android:id="@+id/id_Tpj2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Tpj3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Tpj4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Tpj5"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Q3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Q4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Q5"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_Q6"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_k1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_k2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:text="  3、对标数据"
+                tools:ignore="HardcodedText"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="1dp"/>
+
+        <TextView
+                android:id="@+id/id_Q2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+        <TextView
+                android:id="@+id/id_yesQ3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"/>
+
+    </LinearLayout>
+</ScrollView>

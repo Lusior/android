@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/id_date_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <EditText
+                android:id="@+id/id_date_start"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:editable="false"
+                android:gravity="center"
+                android:hint="开始日期"
+                android:inputType="none"
+                android:textColor="@android:color/holo_blue_light"
+                android:textColorHint="@android:color/holo_blue_light"
+                android:textSize="14dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="至"/>
+
+        <EditText
+                android:id="@+id/id_date_end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:editable="false"
+                android:gravity="center"
+                android:hint="结束日期"
+                android:inputType="none"
+                android:textColor="@android:color/holo_blue_light"
+                android:textColorHint="@android:color/holo_blue_light"
+                android:textSize="14dp"/>
+
+        <ImageView
+                android:id="@+id/id_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_search_black"/>
+    </LinearLayout>
+
+    <Button
+            android:text="点击选择热站或机组"
+            android:id="@+id/id_choose_station"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:id="@+id/item_title"
+            android:paddingBottom="7dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:id="@+id/id_station_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:layout_weight="3"
+                android:text="热站名称"
+                android:textSize="14sp"/>
+
+        <LinearLayout
+                android:gravity="center"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="供热量"
+                    android:textSize="14sp"/>
+
+            <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/content_sortable"
+                    android:src="@drawable/ic_dark_sortable"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    tools:ignore="ContentDescription"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/content2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="运行单耗"
+                    android:textSize="14sp"/>
+
+            <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/content2_sortable"
+                    android:src="@drawable/ic_dark_sortable"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    tools:ignore="ContentDescription"/>
+        </LinearLayout>
+
+        <TextView
+                android:textColor="@color/black"
+                android:id="@+id/content3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="统计时间"
+                android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="@color/gray_divider_line"/>
+
+    <FrameLayout
+            android:id="@+id/content_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_divider_line" />
+
+    <RadioGroup
+            android:id="@+id/id_main_rg"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/id_base_msg"
+                style="@style/MainTabStyle"
+                android:layout_marginTop="7dp"
+                android:drawableTop="@drawable/selector_main_button_xtsz"
+                android:text="@string/main_navigation_base_msg"/>
+
+        <RadioButton
+                android:id="@+id/id_running_state"
+                style="@style/MainTabStyle"
+                android:layout_marginTop="7dp"
+                android:drawableTop="@drawable/selector_main_button_yxgk"
+                android:text="@string/main_navigation_running_state"/>
+
+        <RadioButton
+                android:id="@+id/id_data_analysis"
+                style="@style/MainTabStyle"
+                android:layout_marginTop="7dp"
+                android:drawableTop="@drawable/selector_main_button_sjfx"
+                android:text="@string/main_navigation_data_analysis"/>
+
+        <RadioButton
+                android:id="@+id/id_weather"
+                style="@style/MainTabStyle"
+                android:layout_marginTop="7dp"
+                android:drawableTop="@drawable/selector_main_button_fhyc"
+                android:text="@string/main_navigation_base_load_prediction"/>
+
+        <RadioButton
+                android:id="@+id/id_base_hotinfo"
+                style="@style/MainTabStyle"
+                android:layout_marginTop="7dp"
+                android:drawableTop="@drawable/selector_main_button_fzxx"
+                android:text="@string/main_navigation_base_hotinfo"/>
+    </RadioGroup>
+
+</LinearLayout>

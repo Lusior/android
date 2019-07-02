@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_divider_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_stand_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="机组名称" />
+
+        <TextView
+            android:id="@+id/id_standFh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="换热负荷(MW)" />
+
+        <TextView
+            android:id="@+id/id_standArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="换热面积" />
+
+        <TextView
+            android:id="@+id/id_standBfNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="板换数量" />
+        <TextView
+            android:id="@+id/id_xhbLl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="循环泵流量" />
+        <TextView
+            android:id="@+id/id_xhbYc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="循环泵扬程" />
+        <TextView
+            android:id="@+id/id_xhbGl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="循环泵功率" />
+        <TextView
+            android:id="@+id/id_xhbNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="循环泵数量" />
+        <TextView
+            android:id="@+id/id_bsbLl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="补水泵流量" />
+        <TextView
+            android:id="@+id/id_bsbYc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="补水泵扬程" />
+        <TextView
+            android:id="@+id/id_bsbGl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="补水泵功率" />
+        <TextView
+            android:id="@+id/id_bsbNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_top_margin"
+            android:text="补水泵数量" />
+
+    </LinearLayout>
+</LinearLayout>

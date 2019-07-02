@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools" package="com.longdian">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            tools:replace="label"
+            android:allowBackup="true"
+            android:icon="@drawable/appIcon"
+            android:label="@string/appName"
+            android:roundIcon="@drawable/appRoundIcon"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme" tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <meta-data android:name="app_tag" android:value="${app_tag}"/>
+        <activity
+                android:name=".LoginActivity"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activity.MainActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name=".fragment.base.GalleryActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name=".activity.ContentActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name=".activity.ContentActivityNoToolbar"
+                android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

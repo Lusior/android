@@ -1,0 +1,11 @@
+<resources>
+    <!-- 公司1 -->
+    <string name="appName">@string/app_name</string>
+    <drawable name="appIcon">@mipmap/ic_launcher</drawable>
+    <drawable name="appRoundIcon">@mipmap/ic_launcher_round</drawable>
+
+    <!-- 公司2 -->
+<!--    <string name="appName">@string/app_name2</string>-->
+<!--    <drawable name="appIcon">@mipmap/ic_launcher2</drawable>-->
+<!--    <drawable name="appRoundIcon">@mipmap/ic_launcher_round2</drawable>-->
+</resources>

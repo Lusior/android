@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:padding="8dp">
+
+    <LinearLayout
+            android:id="@+id/id_system_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_logo"/>
+
+        <TextView
+                android:gravity="center_vertical"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:text="手机型号：MI4LTE"
+                android:textSize="15sp"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:text="系统版本：4.4.4"
+                android:textSize="15sp"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:text="软件版本：1.3"
+                android:textSize="15sp"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:text="SDK版本：19"
+                android:textSize="15sp"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:gravity="center_vertical"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:text="版权所属：哈尔滨轩云科技有限公司Copyright©2019"
+                android:textSize="15sp"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:gravity="center_vertical"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_margin="5dp"
+                android:text="技术支持：热能事业部（软件部）"
+                android:textSize="15sp"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+    </LinearLayout>
+</RelativeLayout>

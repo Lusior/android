@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:text="       本智慧供热管控平台（手机版）为我公司针对供热企业高层管理人员所需进行开发，根据职责权限划分本软件只“监”不“调”，只“管”不“控”。通过本软件可实现高层管理人员对运行管理人员、热网系统运行工况实现远程“监管”，保证“监管”数据真实有效及时提出“调控”意见。
+"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="wrap_content"
+                android:text="       本平台共设置五个子项：基本信息、运行工况、数据分析、负荷预测、热站信息，其中数据分析、负荷预测子项为我公司着力打造的两个子项，首次提出数据分析与负荷预测相结合对数据分析中能耗进行二次评定。数据分析子项可直观反映出系统能耗情况，同时进行内部考核排序、同行业对标管理、经济成本分析管理。负荷预测子项实行供热预判制，配合与之相符的调控策略，实现按需供热的目标。
+"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="wrap_content"
+                android:text="       由于本软件部分子项（分项）需要大量调研数据、实验数据支撑，本着严谨求实的精神部分子项（分项）尚未投入使用，待数据准确无误后投入使用，我公司会在第一时间对各用户软件进行升级。
+"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="wrap_content"
+                android:text="       在使用过程中望各位领导提出宝贵意见，您的意见是我们前进的动力，让我们一起为实现真正意义上的智慧供热努力，撸起袖子加油干，智慧供热有你有我。
+"/>
+    </LinearLayout>
+</ScrollView>

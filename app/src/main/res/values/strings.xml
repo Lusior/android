@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">中润物业智慧供热管控平台</string>
+    <string name="app_name2">哈三电厂智慧供热管控平台</string>
+
+    <string name="jh_progress_dialog">加载中</string>
+    <!-- Strings related to login -->
+    <string name="jh_hint_input_phone">请输入用户名</string>
+    <string name="jh_hint_input_verify_code">请输入验证码</string>
+    <string name="jh_hint_input_pwd">请输入密码</string>
+    <string name="jh_hint_confirm_pwd">请确认密码</string>
+    <string name="jh_btn_get_verify_code">获取验证码</string>
+    <string name="jh_btn_close">返回游戏</string>
+    <string name="jh_btn_register">一键注册</string>
+    <string name="jh_btn_forget_pwd">忘记密码</string>
+    <string name="jh_btn_submit">确定</string>
+    <string name="jh_msg_change_pwd_success">密码修改成功</string>
+    <string name="jh_msg_dialog_title">温馨提示</string>
+    <string name="jh_msg_three_login">第三方登录</string>
+
+    <string name="main_navigation_running_state">运行工况</string>
+    <string name="main_navigation_data_analysis">数据分析</string>
+    <string name="main_navigation_weather">天气预报</string>
+    <string name="main_navigation_base_msg">基本信息</string>
+    <string name="main_navigation_base_hotinfo">热站信息</string>
+    <string name="main_navigation_base_hotinfo_split">分站信息</string>
+    <string name="main_navigation_base_load_prediction">负荷预测</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- 天气 -->
+    <string name="loading">正在加载…</string>
+    <string name="yesterday">昨天</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="the_day_of_tomorrow">后天</string>
+    <string name="days_forecast">多天预报</string>
+    <string name="life_index">生活指数</string>
+    <string name="umbrella">雨伞</string>
+    <string name="ultraviolet_rays">紫外线</string>
+    <string name="dress">穿衣</string>
+    <string name="cold">感冒</string>
+    <string name="morning_exercise">晨练</string>
+    <string name="sport">运动</string>
+    <string name="car_wash">洗车</string>
+    <string name="air_cure">晾晒</string>
+    <string name="no_data">暂无数据</string>
+    <string name="no">暂无</string>
+    <string name="dash">--</string>
+    <string name="dash_degree">--℃</string>
+    <string name="alarm">%1$s预警</string>
+    <string name="alarm_title">%1$s%2$s预警</string>
+    <string name="update_time">%1$s发布</string>
+    <string name="update_time2">昨天%1$s发布</string>
+    <string name="update_time3">前天%1$s发布</string>
+    <string name="update_time4">%1$s天前发布</string>
+    <string name="release_time">%1$s发布</string>
+    <string name="data_void">数据过期</string>
+    <string name="aqi">%1$s %2$s</string>
+    <string name="humidity">湿度 %1$s</string>
+    <string name="date">%1$s/%2$d</string>
+    <string name="pull_to_refresh">下拉更新</string>
+    <string name="refreshing">正在更新…</string>
+    <string name="leave_to_refresh">松手可更新</string>
+    <string name="turn">%1$s转%2$s</string>
+    <string name="umbrella_detail">雨伞指数详情</string>
+    <string name="ultraviolet_Rays_detail">紫外线指数详情</string>r
+    <string name="dress_detail">穿衣指数详情</string>
+    <string name="cold_detail">感冒指数详情</string>
+    <string name="morning_exercise_detail">晨练指数详情</string>
+    <string name="sport_detail">运动指数详情</string>
+    <string name="car_wash_detail">洗车指数详情</string>
+    <string name="air_cure_detail">晾晒指数详情</string>
+    <string name="internet_fail">连接失败，请重试</string>
+    <string name="internet_error">网络异常,请检查网络设置</string>
+    <string name="auto_location_error_retry">自动定位失败,请重试</string>
+    <string name="no_city_weather_info">暂无天气预报信息</string>
+    <string name="city_weather_update_time">%1$s更新时间</string>
+
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+
+    <string name="tv_name">姓名：%1$s</string>
+    <string name="tv_depName">部门：%1$s</string>
+    <string name="tv_telephone">电话：%1$s</string>
+    <string name="tv_email">邮箱：%1$s</string>
+    <string name="copyright_2019">北京市煤气热力工程设计院\n哈尔滨轩云科技有限公司</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+<!--
+
+    <item
+        android:id="@+id/id_energy_analysis"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/main_navigation_energy_analysis" />
+
+    <item
+        android:id="@+id/id_realtime_data"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/main_navigation_realtime_data" />
+
+    <item
+        android:id="@+id/id_cloud_service"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/main_navigation_cloud_service" />
+    <item
+        android:id="@+id/id_base_msg"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/main_navigation_base_msg" />
+-->
+
+</menu>

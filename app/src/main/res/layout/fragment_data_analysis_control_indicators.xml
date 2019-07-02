@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:text="1.热耗指标："/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="wrap_content"
+                android:text="        日指标\n        月指标\n        月指标\n        季度（10月-1月）指标\n        季度（1月-4月）指标\n        年度指标"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="2.电耗指标："/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="wrap_content"
+                android:text="        月指标\n        季度（10月-1月）指标\n        季度（1月-4月）指标\n        年度指标"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="3.水耗指标："/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="wrap_content"
+                android:text="        10分钟指标\n        小时指标\n        日指标\n        月指标\n        月指标\n        季度（10月-1月）指标\n        季度（1月-4月）指标\n        年度指标"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="4.投诉率"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="5.收费率"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="6.故障率指标"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+    </LinearLayout>
+</ScrollView>

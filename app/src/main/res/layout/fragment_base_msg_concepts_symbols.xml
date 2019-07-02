@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:text="GJ --------------- 热量统计单位吉焦(1GJ=1×10⁹J)
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="kW·h ------------ 电量统计单位千瓦时(1kW·h=1度)
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="t ----------------- 水量统计单位吨(1t=1000Kg)
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="h ----------------- 时间统计单位小时
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="kW -------------- 功率统计单位千瓦
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+    </LinearLayout>
+</ScrollView>

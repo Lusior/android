@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/jh_shape_corner_rectangle_gray2"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_station_name1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_weight="5"
+            android:text="总负荷预测"
+            android:textColor="@color/black_trans70"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/id_station_arraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_more_pressed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_station_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/jx_shape"
+            android:gravity="left"
+            android:text="总负荷预测"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="今天"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="明天"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="后天"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="大后天"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="平均温度"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_tpj2"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Tpj2"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_tpj3"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Tpj2"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_tpj4"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Tpj2"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_tpj5"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Tpj2"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="预测耗热量"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_q3"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Q3"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_q4"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Q3"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_q5"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Q3"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_q6"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Q3"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/jx_shape2"
+            android:gravity="left"
+            android:maxLines="1"
+            android:text="对标数据"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="昨天耗热量"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="昨天预测耗热量"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_q2"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Q2"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/id_yes"
+                style="@style/text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/jx_shape2"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="（上一条记录）当中的Q3（GJ）"
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

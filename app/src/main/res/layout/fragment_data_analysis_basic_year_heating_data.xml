@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:text="供热面积：715000 ㎡
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="换热站数量：10座
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="热价：38.57元/GJ
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="电价：0.7499元/kWh
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="水价：3.55元/t
+" />
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:text="1.设计指标体系"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="wrap_content"
+                android:text="        一网参数：\n                一网供温\n                一网回温\n                一网温差\n                一网流量\n        二网参数（散热器）：\n                二网供温\n                二网回温\n                二网温差\n                二网流量\n        二网参数（地热）：\n                二网供温\n                二网回温\n                二网温差\n                二网流量"
+                tools:ignore="HardcodedText"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="35dp"
+                android:text="2.经营指标体系"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:layout_margin="5dp"
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.05"
+                android:layout_height="wrap_content"
+                android:text="热耗\n电耗\n水耗\n投诉率\n收费率\n故障率\n人工投入费用\n检修费用"/>
+
+        <View android:layout_width="match_parent"
+              android:background="@color/gray_divider_line"
+              android:layout_height="0.5dp"/>
+    </LinearLayout>
+</ScrollView>

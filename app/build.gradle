@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    signingConfigs {
+        xhkjReleaseKeyStore {
+            keyAlias 'xhkjalias'
+            keyPassword '654321'
+            storeFile file('xhkj-keystore.jks')
+            storePassword '123321'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.longdian"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        signingConfig signingConfigs.xhkjReleaseKeyStore
+
+        //这句很关键
+        jackOptions {
+            enabled true
+        }
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.xhkjReleaseKeyStore
+        }
+        debug {
+            signingConfig signingConfigs.xhkjReleaseKeyStore
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    productFlavors {
+        app1 {
+            minSdkVersion 16
+            applicationId 'com.longdian'
+            signingConfig signingConfigs.xhkjReleaseKeyStore
+            targetSdkVersion 25
+            manifestPlaceholders = [app_tag: "app_name1"]
+        }
+//        app2 {
+//            minSdkVersion 16
+//            applicationId 'com.hasan'
+//            signingConfig signingConfigs.xhkjReleaseKeyStore
+//            targetSdkVersion 26
+//            manifestPlaceholders = [app_tag: "app_name2"]
+//        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    /**
+     * rxJava2、retrofit2
+     */
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    /**
+     * glide
+     */
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    /**
+     * PhotoView
+     */
+    compile 'com.github.chrisbanes:PhotoView:2.0.0'
+    /**
+     * butterknife
+     */
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-vector-drawable:25.3.1'
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    compile 'com.kelin.scrollablepanel:library:1.2.0'
+    compile project(':PullToRefresh')
+    compile 'com.github.castorflex.smoothprogressbar:library-circular:1.2.0'
+    compile 'com.github.huangyanbin:SmartTable:1.7.0'
+    compile 'com.android.support.constraint:constraint-layout:1.1.3'
+}

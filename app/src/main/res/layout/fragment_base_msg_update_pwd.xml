@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe6e6e6"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/id_old_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:hint="旧密码"
+        android:paddingLeft="8dp"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+
+    <EditText
+        android:id="@+id/id_new_pwd1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:hint="新密码"
+        android:paddingLeft="8dp"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/id_new_pwd2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:hint="确认密码"
+        android:paddingLeft="8dp"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/id_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/jh_shape_corner_rectangle_red"
+        android:text="确认"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
